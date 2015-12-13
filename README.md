@@ -1,26 +1,18 @@
-=== Tweeter ===
-Contributors: viren-mohindra
-Donate link: http://virenmohindra.me/
-Tags: testing, cache
-Requires at least: 3.0.1
-Tested up to: 4.3.1
-Stable tag: 4.3.1
-License: GPLv2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
+# Tweeter
 
-Tweeter
+1. Contributors: viren-mohindra
+2. Donate link: http://virenmohindra.me/
+3. Tags: testing, cache
+4. Requires at least: 3.0.1
+5. Tested up to: 4.3.1
+6. Stable tag: 4.3.1
+7. License: GPLv2 or later
+8. License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-== Description ==
-
-
+## Description
 Basic WordPress plugin which has been created for testing of all sites created by Nuked Studios and Viren Mohindra in their entirety
 
-*   Tests to see if anything breaks
-*   Removes cache - single button click implementation
-*   No dependencies, hopefully
-
-
-== Installation ==
+## Installation
 
 This section describes how to install the plugin and get it working.
 
@@ -30,9 +22,7 @@ e.g.
 1. Activate the plugin through the 'Plugins' menu in WordPress
 1. Place `<?php do_action('plugin_name_hook'); ?>` in your templates
 
-
-
-== Usage ==
+## Usage
 Based on <a href="http://wordpress.org/plugins/tweetable-text/">Tweetable Text</a> by Salim Virani, with additions by Joshua Benton of Nieman Lab.
 
 Lets you highlight specific parts of a WordPress post for one-click tweeting. Use:
@@ -49,24 +39,15 @@ You can also add hashtags to the tweet:
 
 As written, this requires <a href="http://fortawesome.github.io/Font-Awesome/">Font Awesome</a> for the Twitter bird; if you don't want to use Font Awesome, just delete <code>&amp;thinsp;&lt;i class='icon-twitter' style='color: #ed2e24;'&gt;&lt;/i&gt;</code>. (You can replace it with an image call if you'd like.) Colors and other layout choices are editable in the CSS block at the bottom of the file.
 
-== Frequently Asked Questions ==
+___
 
-= Can other people use this? =
+## Changelog
 
-Sure, but if it breaks your site, I am not responsible.
-
-= Actually? =
-
-Yeah, sorry. Refer to this for more details visit this [site](http://nukewebbed.com/#section-termsandconditions)
-
-== Screenshots ==
-
-== Changelog ==
-
-= 0.1 =
+### 0.1
 * Initial commit.
 
-== Upgrade Notice ==
+## Upgrade Notice
 
-= 1.0 =
-First commit, no actual reason to update.
+### 1.0
+* First commit, no actual reason to update.
+___

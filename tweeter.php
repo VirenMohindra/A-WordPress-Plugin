@@ -53,13 +53,6 @@ function Tweeter_i18n_init() {
 /////////////////////////////////
 
 <?php
-/*
-Plugin Name: Tweetable Text
-Original Plugin URI: http://wordpress.org/extend/plugins/tweetable-text/
-Description: Make your posts more shareable. Add a Tweet and Buffer button to key sentences right inside each blog post with a simple [tweetable] tag.
-Version: 1.1
-Author: Salim Virani (original), updated by Joshua Benton of Nieman Lab
-*/
 //Stops WordPress from converting your quote symbols into smartquotes, since they are not compatible with the Twitter Share button. (The urlencoding of single quotes / apostrophes breaks in the tweet.)
 remove_filter('the_content', 'wptexturize');
 class TweetableText{
@@ -124,7 +117,7 @@ jQuery(document).ready(function(){
 if (!is_admin()) {
 	add_action(  'wp_head', 'tweetabletext_header' ); 
 }
-?>
+
 // Initialize i18n
 add_action('plugins_loadedi','Tweeter_i18n_init');
 
@@ -134,4 +127,4 @@ if (Tweeter_PhpVersionCheck()) {
     // Only load and run the init function if we know PHP version can parse it
     include_once('tweeter_init.php');
     Tweeter_init(__FILE__);
-}
+    ?>
